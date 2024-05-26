@@ -1,5 +1,5 @@
-from AFROTOMusic import app
-from AFROTOMusic.utils.database import get_cmode
+from ADMANMusic import app
+from ADMANMusic.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
