@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from AFROTOMusic import LOGGER, YouTube, app
-from AFROTOMusic.misc import db
-from AFROTOMusic.utils.database import (
+from ADMANMusic import LOGGER, YouTube, app
+from ADMANMusic.misc import db
+from ADMANMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from AFROTOMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from AFROTOMusic.utils.exceptions import AssistantErr
-from AFROTOMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from AFROTOMusic.utils.inline.play import stream_markup
-from AFROTOMusic.utils.stream.autoclear import auto_clean
-from AFROTOMusic.utils.thumbnails import get_thumb
+from ADMANMusic.utils.exceptions import AssistantErr
+from ADMANMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from ADMANMusic.utils.inline.play import stream_markup
+from ADMANMusic.utils.stream.autoclear import auto_clean
+from ADMANMusic.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
@@ -556,7 +556,7 @@ class Call(PyTgCalls):
         return str(round(sum(pings) / len(pings), 3))
 
     async def start(self):
-        LOGGER("ميــوزك عفرتو").info("جارِ تحميل مكاتب الميوزك . . .\n")
+        LOGGER("ميــوزك ادمان).info("جارِ تحميل مكاتب الميوزك . . .\n")
         if config.STRING1:
             await self.one.start()
         if config.STRING2:
