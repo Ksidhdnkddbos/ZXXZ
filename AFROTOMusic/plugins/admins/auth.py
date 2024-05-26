@@ -1,17 +1,17 @@
-from AFROTOMusic.plugins.play.filters import command
+from ADMANMusic.plugins.play.filters import command
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AFROTOMusic import app
-from AFROTOMusic.utils import extract_user, int_to_alpha
-from AFROTOMusic.utils.database import (
+from ADMANMusic import app
+from ADMANMusic.utils import extract_user, int_to_alpha
+from ADMANMusic.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from AFROTOMusic.utils.decorators import AdminActual, language
-from AFROTOMusic.utils.inline import close_markup
+from ADMANMusic.utils.decorators import AdminActual, language
+from ADMANMusic.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
