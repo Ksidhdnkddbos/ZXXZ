@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AFROTOMusic import YouTube, app
-from AFROTOMusic.core.call import Zelzaly
-from AFROTOMusic.misc import SUDOERS, db
-from AFROTOMusic.utils.database import (
+from ADMANMusic import YouTube, app
+from ADMANMusic.core.call import Zelzaly
+from ADMANMusic.misc import SUDOERS, db
+from ADMANMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from AFROTOMusic.utils.database import (
     music_on,
     set_loop,
 )
-from AFROTOMusic.utils.decorators.language import languageCB
-from AFROTOMusic.utils.formatters import seconds_to_min
-from AFROTOMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from AFROTOMusic.utils.stream.autoclear import auto_clean
-from AFROTOMusic.utils.thumbnails import get_thumb
+from ADMANMusic.utils.decorators.language import languageCB
+from ADMANMusic.utils.formatters import seconds_to_min
+from ADMANMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from ADMANMusic.utils.stream.autoclear import auto_clean
+from ADMANMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
