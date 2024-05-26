@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from AFROTOMusic import app
-from AFROTOMusic.utils.database import (
+from ADMANMusic import app
+from ADMANMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from AFROTOMusic.utils.database import (
     skip_off,
     skip_on,
 )
-from AFROTOMusic.utils.decorators.admins import ActualAdminCB
-from AFROTOMusic.utils.decorators.language import language, languageCB
-from AFROTOMusic.utils.inline.settings import (
+from ADMANMusic.utils.decorators.admins import ActualAdminCB
+from ADMANMusic.utils.decorators.language import language, languageCB
+from ADMANMusic.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from AFROTOMusic.utils.inline.start import private_panel
+from ADMANMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
