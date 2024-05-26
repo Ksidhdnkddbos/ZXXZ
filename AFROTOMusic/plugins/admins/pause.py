@@ -1,12 +1,12 @@
-from AFROTOMusic.plugins.play.filters import command
+from ADMANMusic.plugins.play.filters import command
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AFROTOMusic import app
-from AFROTOMusic.core.call import Zelzaly
-from AFROTOMusic.utils.database import is_music_playing, music_off
-from AFROTOMusic.utils.decorators import AdminRightsCheck
-from AFROTOMusic.utils.inline import close_markup
+from ADMANMusic import app
+from ADMANMusic.core.call import Zelzaly
+from ADMANMusic.utils.database import is_music_playing, music_off
+from ADMANMusic.utils.decorators import AdminRightsCheck
+from ADMANMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
