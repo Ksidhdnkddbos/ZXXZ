@@ -1,10 +1,10 @@
-from AFROTOMusic.plugins.play.filters import command
+from ADMANMusic.plugins.play.filters import command
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AFROTOMusic import YouTube, app
-from AFROTOMusic.core.call import Zelzaly
-from AFROTOMusic.misc import db
+from ADMANMusic import YouTube, app
+from ADMANMusic.core.call import Zelzaly
+from ADMANMusic.misc import db
 from AFROTOMusic.utils import AdminRightsCheck, seconds_to_min
 from AFROTOMusic.utils.inline import close_markup
 from config import BANNED_USERS
