@@ -1,11 +1,11 @@
-from AFROTOMusic.plugins.play.filters import command
+from ADMANMusic.plugins.play.filters import command
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AFROTOMusic import app
-from AFROTOMusic.utils.database import get_loop, set_loop
-from AFROTOMusic.utils.decorators import AdminRightsCheck
-from AFROTOMusic.utils.inline import close_markup
+from ADMANMusic import app
+from ADMANMusic.utils.database import get_loop, set_loop
+from ADMANMusic.utils.decorators import AdminRightsCheck
+from ADMANMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
