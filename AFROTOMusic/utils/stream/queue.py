@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from AFROTOMusic.misc import db
-from AFROTOMusic.utils.formatters import check_duration, seconds_to_min
+from ADMANMusic.misc import db
+from ADMANMusic.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
