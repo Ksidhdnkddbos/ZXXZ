@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from AFROTOMusic import Carbon, YouTube, app
-from AFROTOMusic.core.call import Zelzaly
-from AFROTOMusic.misc import db
-from AFROTOMusic.utils.database import add_active_video_chat, is_active_chat
-from AFROTOMusic.utils.exceptions import AssistantErr
-from AFROTOMusic.utils.inline import aq_markup, close_markup, stream_markup
-from AFROTOMusic.utils.pastebin import ZelzalyBin
-from AFROTOMusic.utils.stream.queue import put_queue, put_queue_index
-from AFROTOMusic.utils.thumbnails import get_thumb
+from ADMANMusic import Carbon, YouTube, app
+from ADMANMusic.core.call import Zelzaly
+from ADMANMusic.misc import db
+from ADMANMusic.utils.database import add_active_video_chat, is_active_chat
+from ADMANMusic.utils.exceptions import AssistantErr
+from ADMANMusic.utils.inline import aq_markup, close_markup, stream_markup
+from ADMANMusic.utils.pastebin import ZelzalyBin
+from ADMANMusic.utils.stream.queue import put_queue, put_queue_index
+from ADMANMusic.utils.thumbnails import get_thumb
 
 
 async def stream(
