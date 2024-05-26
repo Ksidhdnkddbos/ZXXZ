@@ -8,9 +8,9 @@ from ..logging import LOGGER
 
 class Zelzaly(Client):
     def __init__(self):
-        LOGGER("ميــوزك الزعيم").info(f"جارِ بدء تشغيل البوت . . .")
+        LOGGER("ميــوزك ادمان").info(f"جارِ بدء تشغيل البوت . . .")
         super().__init__(
-            name="AFROTOMusic",
+            name="ADMANMusic",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
