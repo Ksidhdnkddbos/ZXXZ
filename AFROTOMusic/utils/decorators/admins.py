@@ -1,10 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AFROTOMusic import app
-from AFROTOMusic.misc import SUDOERS, db
-from AFROTOMusic.utils.database import (
-    get_authuser_names,
+from ADMANMusic import app
+from ADMANMusic.misc import SUDOERS, db
+from ADMANget_authuser_names,
     get_cmode,
     get_lang,
     get_upvote_count,
