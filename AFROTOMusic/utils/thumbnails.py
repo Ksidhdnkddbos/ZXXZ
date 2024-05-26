@@ -87,7 +87,7 @@ async def get_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
 
-            circle = Image.open("AFROTOMusic/assets/AFYONA.png")
+            circle = Image.open("ADMANMusic/assets/AFYONA.png")
 
             # changing circle color
             im = circle
@@ -118,18 +118,18 @@ async def get_thumb(videoid):
             image2.paste(circle, (0, 0), mask=circle)
 
             # fonts
-            font1 = ImageFont.truetype("AFROTOMusic/assets/font2.ttf", 30)
-            font2 = ImageFont.truetype("AFROTOMusic/assets/font2.ttf", 70)
-            font3 = ImageFont.truetype("AFROTOMusic/assets/font2.ttf", 40)
-            font4 = ImageFont.truetype("AFROTOMusic/assets/font2.ttf", 35)
+            font1 = ImageFont.truetype("ADMANMusic/assets/font2.ttf", 30)
+            font2 = ImageFont.truetype("ADMANMusic/assets/font2.ttf", 70)
+            font3 = ImageFont.truetype("ADMANMusic/assets/font2.ttf", 40)
+            font4 = ImageFont.truetype("ADMANMusic/assets/font2.ttf", 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text(
-                (10, 10), "AFROTOO MUSIC ", fill="white", font=font1, align="left"
+                (10, 10), "ADMAN MUSIC ", fill="white", font=font1, align="left"
             )
             image4.text(
                 (670, 150),
-                "AFROTOO MUSIC",
+                "ADMAN MUSIC",
                 fill="white",
                 font=font2,
                 stroke_width=4,
@@ -161,7 +161,7 @@ async def get_thumb(videoid):
             # description
             views = f"Views : {views}"
             duration = f"Duration : {duration} Mins"
-            channel = f"Channel : @UI_VM"
+            channel = f"Channel : @TI_M_ll"
 
             image4.text((670, 450), text=views, fill="white", font=font4, align="left")
             image4.text(
