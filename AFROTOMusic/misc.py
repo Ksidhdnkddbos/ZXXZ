@@ -77,7 +77,7 @@ def heroku():
                 heroku_var["API_ID"] = zzapid
                 heroku_var["API_HASH"] = zzapihash
                 heroku_var["MONGO_DB_URI"] = zzzdb
-                LOGGER("ميــوزك ادمان).info(f"تم إضافة فارات البوت ...✓")
+                LOGGER("ميــوزك ادمان").info(f"تم إضافة فارات البوت ...✓")
             except BaseException:
                 LOGGER(__name__).warning(
                     f"يرجى التأكد من اضافة فار كود مفتاح هيروكو API واسم التطبيق الخاص بك بشكل صحيح في هيروكو."
