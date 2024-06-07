@@ -58,7 +58,7 @@ async def sudo():
     if sudoers:
         for user_id in sudoers:
             SUDOERS.add(user_id)
-    LOGGER("ميــوزك ادمان).info(f"تم تحميل قائمة مطورين البوت ..")
+    LOGGER("ميــوزك ادمان").info(f"تم تحميل قائمة مطورين البوت ..")
 
 
 def heroku():
